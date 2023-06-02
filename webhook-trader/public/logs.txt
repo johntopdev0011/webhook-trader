@@ -1,0 +1,8 @@
+info: Started on port: 80
+info: Stopped by signal: SIGINT
+info: Started on port: 80
+info: Received from IP ::1 at 2023-05-10T02:42:16.600Z webhook content {"type":"open","account":"account1","side":"buy","amount":"0.98","asset":"ETH","base":"USDT","leverage":"2"}
+info: Parsed and found type: open
+info: found: account1 for USDT and ETH and 0.98 and 2
+info: Opened new position at 2023-05-10T02:42:19.702Z
+info: Stopped by signal: SIGINT
