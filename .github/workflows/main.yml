@@ -12,7 +12,7 @@ jobs:
       - name: Set up PR badge
         uses: peter-evans/create-pull-request-comment@v3.5.1
         with:
-          token: ${{ secrets.PullToken }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           comment: |
             ![PRs](https://img.shields.io/github/issues-pr-raw/EliteNinja07/webhook-trader?color=green&label=Open%20PRs&logo=github)
             ![Closed PRs](https://img.shields.io/github/issues-pr-closed-raw/EliteNinja07/webhook-trader?color=red&label=Closed%20PRs&logo=github)
